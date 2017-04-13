@@ -1,0 +1,4 @@
+The following has been acheived so far:
+
+Upon invocation from the user, Alexa responds with a query to explain the day of the user. The reply received from the user is then sent to 'Alchemy' Watson sentiment API. The 'Alchemy' API generates a mood score based on the API query. 
+This mood score is passed to pygn API which curates tracks and a new playlist is created for the user in spotify. This playlist contains songs relating to the mood score passed to it. 
